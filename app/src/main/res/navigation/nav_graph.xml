@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/fragmentMapLocator">
+
+    <fragment
+        android:id="@+id/fragmentMapLocator"
+        android:name="com.example.assignment3_hebaalsayyed_301357388.representer.map.FragmentMapLocator"
+        android:label="Assignment3" />
+</navigation>
